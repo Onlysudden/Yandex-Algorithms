@@ -1,7 +1,7 @@
 l, c = list(map(int, input().split()))
 numbers = list(map(int, input().split()))
-l_list = []
-r_list = []
+left_list = []
+right_list = []
 flag = True
 
 if l % 2 != 0:
@@ -11,15 +11,15 @@ if l % 2 != 0:
             flag = False
         else:
             if elem < (l // 2):
-                l_list.append(elem)
+                left_list.append(elem)
             else:
-                r_list.append(elem)
+                right_list.append(elem)
     if flag is True:
-        print(max(l_list), min(r_list))
+        print(max(left_list), min(right_list))
 else:
     for elem in numbers:
         if elem < (l // 2):
-            l_list.append(elem)
+            left_list.append(elem)
         else:
-            r_list.append(elem)
-    print(max(l_list), min(r_list))
+            right_list.append(elem)
+    print(max(left_list), min(right_list))
