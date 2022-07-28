@@ -64,10 +64,10 @@
 
 Ввод
 4  
-..._.#.  
-.##_...  
-.#._.##  
-..._...  
+...«_».#.  
+.##«_»...  
+.#.«_».##  
+...«_»...  
 7  
 2 left aisle  
 3 right window  
@@ -80,29 +80,29 @@
 Вывод
 
 Passengers can take seats: 1B 1C  
-.XX_.#.  
-.##_...  
-.#._.##  
-..._...  
+.XX«_».#.  
+.##«_»...  
+.#.«_».##  
+...«_»...  
 Passengers can take seats: 2D 2E 2F  
-.##_.#.  
-.##_XXX  
-.#._.##  
-..._...  
+.##«_».#.  
+.##«_»XXX  
+.#.«_».##  
+...«_»...  
 Passengers can take seats: 4A 4B  
-.##_.#.  
-.##_###  
-.#._.##  
-XX._...  
+.##«_».#.  
+.##«_»###  
+.#.«_».##  
+XX.«_»...  
 Cannot fulfill passengers requirements  
 Passengers can take seats: 1F  
-.##_.#X  
-.##_###  
-.#._.##  
-##._...  
+.##«_».#X  
+.##«_»###  
+.#.«_».##  
+##.«_»...  
 Passengers can take seats: 4E 4F  
-.##_.##  
-.##_###  
-.#._.##  
-##._.XX  
+.##«_».##  
+.##«_»###  
+.#.«_».##  
+##.«_».XX  
 Cannot fulfill passengers requirements  
